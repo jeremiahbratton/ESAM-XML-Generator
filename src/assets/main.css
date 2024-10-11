@@ -58,6 +58,12 @@ a,
   display: flex;
   gap:0.5rem;
   margin-bottom:0.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+
+  select {
+    max-width: 100%;
+  }
 }
 
 .xml-preview {

@@ -81,6 +81,10 @@ function copyOutput() {
           <input type="number" name="segmentStart" v-model="segments[index].segmentStart" :data-valid="segments[index].segmentStart != ''"/>
         </div>
         <div class="segment-group">
+          <label>Segment Pair?</label>
+          <input type="checkbox" v-model="segments[index].segmentPair"/>
+        </div>
+        <div class="segment-group">
           <label>Segment Duration:</label>
           <input type="number" name="segmentDuration" v-model="segments[index].segmentDuration" :data-valid="segments[index].segmentDuration != ''"/>
         </div>
